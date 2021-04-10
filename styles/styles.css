@@ -20,7 +20,8 @@ body, html {
     justify-content: center;
     position: absolute;
     left: 58rem;
-    top:12rem;
+    top:14rem;
+    right: 3rem;
   
 
 }
@@ -87,23 +88,51 @@ h6{
 
 form h5, input, button{
   margin-left:-4rem;
+
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
   background-color: #8064A2 !important;
   border-color: #fff;
+  
 }
 
 #forgot{
 margin-left: 1.22rem;
+margin-top: 10rem;
 
 }
 #forgot a{
   color: #fffaf0;
   font-size: 0.8rem;
   text-align: right;
+ 
 }
 
 footer b{
   color: #8064A2;
+}
+
+.oldlogo{
+  margin-top:2.8rem;  
+  margin-right : 2.2rem;
+}
+
+.login{
+  /* margin-right: 17rem;
+  margin-left:-7rem;
+  margin-top: 5rem; */
+  position: absolute;
+  left:59rem;
+  top:9rem;
+
+}
+
+.login h1{
+  color:#8064A2;
+  font-size:2.6rem;
+}
+
+::placeholder{
+  font-style: italic;
 }
